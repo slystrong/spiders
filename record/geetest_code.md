@@ -8,7 +8,7 @@
 
 至于判断具体是那种验证,可以根据是否能获取到图片元素以及获取到的图片大小来判断是哪种验证即可。
 
-对于点击直接通过的验证,本文就不叙述了,而滑动块的验证可以参考[滑动块验证](https://github.com/slystrong/spiders/tree/master/%E4%B8%AA%E4%BA%BA%E8%AE%B0%E5%BD%95/滑动块验证破解(哔哩哔哩登录破解).md ),但是极验有一点不一样,就是极验的原图我们在网页上看不到,本人后来在开发者模式里面查看网页时发现原图被隐藏了
+对于点击直接通过的验证,本文就不叙述了,而滑动块的验证可以参考[滑动块验证](https://github.com/slystrong/spiders/tree/master/record/Slide_block_verification(bilibili).md ),但是极验有一点不一样,就是极验的原图我们在网页上看不到,本人后来在开发者模式里面查看网页时发现原图被隐藏了
 
 ![code16](images/code16.png)
 
