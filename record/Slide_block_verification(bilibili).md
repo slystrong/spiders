@@ -18,9 +18,17 @@
 
 然后从中间向左找到左边点的位置,然后计算出两点之间的距离,就知道滑块应该滑动距离。(一般情况下,就能准确的计算出精准的滑块与缺口的距离,当遇到最极端的情况,也就是滑块的左边没有凸起并且滑块与缺口是紧挨着的,这时我们可以采取从新请求页面的方式,这种情况很少,本人只遇到过一次),
 
+   从下图可以详细的分析,
+
+​	假如每个小方块就是一个像素点;
+
+​	我们从最右边的像素点1开始对比像素点,再对比像素点2第一列对比完再对比第二列,直到找到点2的位置(grap2);
+
+​	然后寻从中间(left_start)的像素点1开始对比,直至找到点1的位置(grap1);
+
+![code18](images/code18.png)
+
 ​	4.为了模拟滑动,所以我们在滑动的时候也采用的是分段加速,分段减速的方式进行滑动。
-
-
 
 具体代码实现:
 
@@ -132,8 +140,10 @@ class CrackGeetest():
         :return:
         """
         left = 15 # left 是图片左边多余不用进行对比的距离
-        for i in range(70, 20, -1): # 70 是当滑动右边有凸起时,凸起距离图片最左边的距离
-            for j in range(image1.size[1] - 37): # 37 是图片下面多余不用进行对比的距离
+        left_start = 70 # left_start 是当滑动右边有凸起时,凸起距离图片最左边的
+        high = 37  # 图片下面多余不用进行对比的距离
+        for i in range(left_start, 20, -1): 距离
+            for j in range(image1.size[1] - high): 
                 if not self.is_pixel_equal(image1, image2, i, j):
                     left = i
                     return left
@@ -148,8 +158,9 @@ class CrackGeetest():
         :return:
         """
         left = 15 # left 是图片左边多余不用进行对比的距离
+        high = 37  # 图片下面多余不用进行对比的距离
         for i in range(image1.size[0] - 1, left, -1):
-            for j in range(image1.size[1] - 37): # 37 是图片下面多余不用进行对比的距离
+            for j in range(image1.size[1] - high): 
                 if not self.is_pixel_equal(image1, image2, i, j):
                     left = i
                     return left
@@ -246,4 +257,3 @@ if __name__ == '__main__':
 
 ```
 
-**备注:**上述代码寻找两点位置的方式是,先从右到左  从上到下的方式进行像素对比的,所以遇到最极端的情况(有凸起,并且紧挨)可能有误差,但是可以将寻找的顺序改一下, 先从上到下再从右到左去寻找滑块上方的点的形式,按这种方式就能排除两个滑块紧挨的情况。
