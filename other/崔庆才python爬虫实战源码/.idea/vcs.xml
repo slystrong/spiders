@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/AdslProxy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Anjuke" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CookiesPool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CrackGeetest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CrackImageCode" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CrackTouClick" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CrackWeiboSlide" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/GithubLogin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/IGetGet" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Images360" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Jiepai" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MaoYan" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MitmAppiumJD" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Moments" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ProxyPool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ProxySettings" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Qunar" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ScrapyCrawlSpider" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ScrapyCrawlSpiderTest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ScrapyDocker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ScrapyDownloaderTest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ScrapyPyppeteer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ScrapyRedisBloomFilter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ScrapySeleniumTest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ScrapySplashTest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ScrapyTutorial" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ScrapyUniversal" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ScrapydDeploy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ScrapydDocker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TaobaoProduct" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TestTess" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Universal" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/WeiboList" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Weixin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/interview_python" vcs="Git" />
+  </component>
+</project>
